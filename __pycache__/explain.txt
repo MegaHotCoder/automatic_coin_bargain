@@ -1,0 +1,12 @@
+price = 가격
+qty = 수량
+orderType = 주문 유형
+timeInForce = 주문 지속 방식
+
+ex. place_order('btc_krw','buy','9000000','0.5','limit','gtc')
+-> 비트코인을 9000000가격에 0.5개 매수 주문을 할 수 있다
+
+cancel_order('btc_krw',100001234)
+-> 10001234라는 주문 ID비트코인 주문을 취소한다
+
+# buy_and_sell와 관련해서
